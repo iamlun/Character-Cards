@@ -1,0 +1,59 @@
+
+a{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 36px;
+    text-decoration: none;
+}
+.button_wrapper_normal{
+    color: black;
+    border-radius: 30px;
+    border: 2px solid rgb(255, 20, 147);;
+    width: 275px;
+    height: 56px;
+    cursor: pointer;
+    text-align: center;
+    padding: 8px 10px 8px 10px;
+
+}
+.button_wrapper_normal:hover{
+    background-color: rgb(249, 214, 214);
+}
+.button_wrapper_primary{
+    color: #fff;
+    border-radius: 30px;
+    border: 2px solid rgb(255, 20, 147);
+    width: 275px;
+    height: 56px;
+    cursor: pointer;
+    text-align: center;
+    padding: 8px 10px 8px 10px;
+    background-color:rgb(255, 20, 147) ;
+
+}
+.button_wrapper_primary:hover{
+    color: black;
+    background-color: rgb(249, 214, 214);
+}
+
+
+@media screen and (max-width:800px) {
+    .button_wrapper_normal,
+    .button_wrapper_primary{
+        width: 80%;
+    }
+    a{
+        font-size: 20px;
+    }
+    
+}
+
+@media screen and (max-width:500px) {
+    .button_wrapper_normal,
+    .button_wrapper_primary{
+        width: 100%;
+    }
+    Link{
+        font-size: 20px;
+    }
+}

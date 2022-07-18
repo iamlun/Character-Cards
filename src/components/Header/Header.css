@@ -1,0 +1,40 @@
+.Header_wrapper{
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.header_arrow_left{
+    cursor: pointer;
+}
+.header_arrow_left:hover,
+.header_arrow_right:hover{
+    background-color: rgb(253, 207, 192);
+    border-radius: 18px;
+
+}
+.header_dots{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header_dot{
+    border: 2px solid #ff1493;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+.header_dot_active{
+    border: 2px solid #ff1493;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: #ff1493;
+}
+.header_line{
+    height: 5px;
+    width: 50px;
+    background-color:#ff1493;
+}
