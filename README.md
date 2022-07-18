@@ -1,8 +1,8 @@
-# Character-Cards
+# :ferris_wheel: Character-Cards
 
 > **Dress up your characters [Link >>](https://campus-diveintotopic-fn.web.app/)**
 
-# Techniques
+# :ferris_wheel: Techniques
 - Front-End
   - HTML / CSS / JavaScript
   - Responsive Web Design (RWD)
