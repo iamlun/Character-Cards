@@ -12,6 +12,5 @@
   - Hosting
 - Packages
   - redux
-  - styled-components
   - storybook
  
